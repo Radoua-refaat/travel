@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.first {
+    width: 30%;
+}
+
+.first h2,
+.second h2,
+.third h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    font-weight: 400;
+
+}
+
+.first p {
+    color: rgb(212, 212, 212);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.second .fa {
+    color: rgb(212, 212, 212);
+    font-size: 20px;
+    margin: 10px 0;
+}
+.contact div span
+{
+    color: rgb(212, 212, 212);
+    margin-left: 10px;
+}
+.social  {
+    font-size: 25px ;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.fa-facebook-square{
+    background: #3B5998;
+    color: white;
+    padding: 13px  14px;
+    border-radius: 50%;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    padding: 13px  14px;
+    border-radius: 50%;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+    padding: 13px  14px;
+    border-radius: 50%;
+}
+
+.fa-instagram{
+    background: #125688;
+    color: white;
+    padding: 13px  14px;
+    border-radius: 50%;
+}
+
+.fa-pinterest-square{
+    background: #cb2027;
+    color: white;
+    padding: 13px  14px;
+    border-radius: 50%;
+}
+
+.gallery 
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+.gallery img {
+    width: 100px;
+    border-radius: 8px;
+    
+}
+
+.fab:hover {
+    opacity: 0.7;
+}

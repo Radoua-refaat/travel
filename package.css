@@ -1,0 +1,290 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+
+}
+body {
+    
+        background-image: url("Background.png");
+        background-size: cover;
+    
+}
+
+/* header */
+header {
+    position:relative;
+    /* width: 100%; */
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: transparent; */
+    padding: 30px 20px;
+    /* transition:  ALL .40s ease ; */
+}
+.logo{
+    font-size: 35PX;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 3PX;
+}
+span{
+    color: #ffa343;
+    font-weight: bold;
+}
+.navbar {
+    display: flex;
+}
+.navbar a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    /* padding: 10px 22px; */
+    /* transition:  ALL .40s ease ; */
+    margin: 15px 22px;
+}
+.navbar a:hover {
+    color:#ffa343;
+    /* box-shadow: 5px 10px 30px rgb(85 85 85 /20%); */
+}
+/*  end of header */
+
+/* package section */
+.center-text{
+    text-align: center;
+}
+.center-text h1{
+    font-size: 3rem;
+    font-weight: 700; 
+    margin-top: 50px;
+    color: #fff;
+} 
+.center-text h5{
+    font-size: 25px;
+    font-weight: 500; 
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+/*  */
+
+.title{
+    text-align: center;
+    margin-top: 50px;
+}
+.title h2{
+font-size: 3rem;
+line-height: 1.2;
+color: #fff;
+
+}
+.Package-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,auto));
+    /* grid-gap: 2rem; */
+    /* align-items: center; */
+    margin-top: 2rem;
+    padding-right: 150px ;
+}
+.Package-content .img{
+    /* width: 100%;
+    height: 100%;
+    object-fit: cover; */
+    border-radius: 10px;
+    /* display: block; */
+    margin-left: 100px;
+    position: relative;
+    
+
+/* transition: all .3s cubic-bezier(0.445, 0.05, 0.55, 0.95); */
+}
+.Package-content .img img{
+    width: 380px;
+    height: auto;
+    border-radius: 10px;
+}
+.img h3{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: right;
+    color:#ffa343;
+    top: 36px;
+    right: 20px;
+}
+.dest-content{
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: space-between;
+    width: 380px;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 20PX;
+}
+.stars i{
+    color: #dbdada;
+    font-size: 20px;
+}
+.stars .checked
+{
+    color: #5a7184;
+}
+.location h4{
+    font-size: 24px;
+font-weight: 600;
+margin-bottom: 9px;
+color: #fff;
+}
+.location p{
+    font-size: 20px;
+    color:#a7a0a0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**Footer**/
+.footer {
+    background-color: rgb(18, 18, 18);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.first {
+    width: 30%;
+}
+
+.first h2,
+.second h2,
+.third h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    font-weight: 400;
+
+}
+
+.first p {
+    color: rgb(212, 212, 212);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.second .fa {
+    color: rgb(212, 212, 212);
+    font-size: 20px;
+    margin: 10px 0;
+}
+.contact div span
+{
+    color: rgb(212, 212, 212);
+    margin-left: 10px;
+}
+.social  {
+    font-size: 25px ;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.fa-facebook-square{
+    background: #3B5998;
+    color: white;
+    padding: 13px  14px;
+    border-radius: 50%;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    padding: 13px  14px;
+    border-radius: 50%;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+    padding: 13px  14px;
+    border-radius: 50%;
+}
+
+.fa-instagram{
+    background: #125688;
+    color: white;
+    padding: 13px  14px;
+    border-radius: 50%;
+}
+
+.fa-pinterest-square{
+    background: #cb2027;
+    color: white;
+    padding: 13px  14px;
+    border-radius: 50%;
+}
+
+.gallery 
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+.gallery img {
+    width: 100px;
+    border-radius: 8px;
+    
+}
+
+.fab:hover {
+    opacity: 0.7;
+}
